@@ -5,7 +5,7 @@ Question-01-security-automation
 
 
 ## Objective
-The purpose of this PowerShell script is to automate the retrieval of compliant and non-compliant AWS resources using AWS Config rules through an AWS Config Aggregator.
+The purpose of this PowerShell script is to automate the retrieval of compliant and non-compliant AWS resources mapped against the AWS Config rules through an AWS Config Aggregator.
  
 The script helps identify the compliance status of resources across the AWS environment without requiring manual verification through the AWS Console.
 
@@ -15,7 +15,7 @@ The solution is implemented using:
 - AWS Config
 - AWS Config Aggregator
  
-The PowerShell script is executed within my AWS command-line environment.
+The PowerShell script is executed within my AWS command-line environment, and it will fetch the list of compliant and non-compliant resources mapped against the AWS Config rules for some custom rules as mentioned in the script itself.
 
 ## Script
 The PowerShell automation script is available in this directory.
